@@ -27,11 +27,11 @@ public class KnjigaController {
 
     // POST method
     @RequestMapping(value = "/addKnjiga", method = RequestMethod.POST)
-    public String addStudent(@ModelAttribute Knjiga knjiga, ModelMap model) {
+    public String addKnjiga(@ModelAttribute Knjiga knjiga, ModelMap model) {
         model.addAttribute("naziv", knjiga.getNaziv());
         model.addAttribute("pisac", knjiga.getPisac());
         model.addAttribute("godina", knjiga.getGodina());
-        // viewStudent.jsp
+       
         return "viewKnjiga";
     }
 }
