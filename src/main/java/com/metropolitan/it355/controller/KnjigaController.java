@@ -22,6 +22,7 @@ public class KnjigaController {
     public ModelAndView knjiga() {
         System.out.println("Calling MessageSource");
         System.out.println(messageSource.getMessage("naziv", null, new Locale("sr-Latn-RS")));
+        System.out.println(messageSource.getMessage("pisac", null, new Locale("sr-Latn-RS")));
         return new ModelAndView("knjiga", "command", new Knjiga());
     }
 
