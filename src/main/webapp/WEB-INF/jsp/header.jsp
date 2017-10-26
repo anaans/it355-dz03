@@ -5,5 +5,5 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     </head>
     <body>
-        <h2>Header</h2>
+        <h2><spring:message code="header"/></h2>
         <br/>
