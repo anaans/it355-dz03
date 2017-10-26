@@ -4,21 +4,21 @@
 
 <html>
     <head>
-        <title>Prikaz knjiga</title>
+        <title><spring:message code="unosNaslov"/></title>
     </head>
     <body>
-        <h2>Podaci o knjizi</h2>
+        <h2><spring:message code="pregledNaslov"/></h2>
         <table>
             <tr>
-                <td>Naziv</td>
+                <td><spring:message code="naziv"/></td>
                 <td>${naziv}</td>
             </tr>
             <tr>
-                <td>Pisac: </td>
+                <td><spring:message code="pisac"/></td>
                 <td>${pisac}</td>
             </tr>
             <tr>
-                <td>Godina izdanja: </td>
+                <td><spring:message code="godina"/></td>
                 <td>${godina}</td>
             </tr>
         </table>
