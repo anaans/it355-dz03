@@ -7,10 +7,10 @@
 
 <html>
     <head>
-        <title>Unos knjiga</title>
+        <title><spring:message code="linkUnos"/></title>
     </head>
     <body>
-        <h2>Unesite informacije o knjizi</h2>
+        <h2><spring:message code="unosNaslov"/></h2>
 
         <form:form method="POST" action="/IT355/addKnjiga">
             <table>
@@ -28,7 +28,8 @@
                 </tr>
                 <tr>
                     <td colspan="2">
-                        <input type="submit" value="Pošalji"/>
+                        <spring:message code="submit" var="submitText"/>
+                        <input type="submit" value="${submitText}"/>
                     </td>
                 </tr>
             </table>
