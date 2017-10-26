@@ -10,7 +10,7 @@
     </head>
     <body>
         <h2>${message}</h2>
-        <h2><a href="/IT355/knjiga">Unos knjiga</a><h2>
+        <h2><a href="/IT355/knjiga"><spring:message code="linkUnos"/></a><h2>
     </body>
 </html>
 
